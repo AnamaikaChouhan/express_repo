@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Data</title>
+</head>
+<body>
+    <h1>data will be here</h1>
+
+    <table border="2">
+        <tr>
+            <td>Name</td>
+            <td>Age</td>
+            <td>Operation</td>
+        </tr>
+
+        <% students.forEach(students => { %>
+         <tr>
+            <td><%= students.name %></td>
+            <td><%= students.age %></td>
+            <td><a href="/ui/delete/ <%= students.id %>">Delete</a></td>
+         </tr>
+        
+        <% }) %>
+    </table>
+</body>
+</html>

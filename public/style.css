@@ -1,0 +1,17 @@
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: brown;
+}
+
+
+a{
+    background-color: blue;
+    border-radius: 10px;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+a:hover{
+    background-color: black;
+}
+

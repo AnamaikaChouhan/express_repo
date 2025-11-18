@@ -1,0 +1,25 @@
+[
+    {
+        "id" : "1",
+        "names" : "Anamika",
+        "age"  : "21",
+        "email" :"anu@gmail.com"
+        
+    },
+        {
+        "id" : "2",
+        "names" : "Radhika",
+        "age"  : "21",
+        "email" :"radha@gmail.com"
+        
+    },
+        {
+        "id" : "3",
+        "names" : "Vaishali",
+        "age"  : "23",
+        "email" :"vishu@gmail.com"
+        
+    }
+
+
+]
